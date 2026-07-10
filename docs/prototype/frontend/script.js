@@ -85,6 +85,7 @@ oxygen saturation has decreased, and respiratory rate is elevated.
 <p>
 No significant concerning trends identified. Current findings support routine monitoring.
 </p>
+${displayRiskAssessment("Patient A")}
         `;
 
 
@@ -132,6 +133,7 @@ No significant concerning trends identified. Current findings support routine mo
 Respiratory concern identified because oxygen requirement is increasing,
 oxygen saturation has decreased, and respiratory rate is elevated.
 </p>
+${displayRiskAssessment("Patient B")}
         `;
 
 
@@ -187,6 +189,7 @@ Higher risk pattern identified because multiple changes are occurring together:
 increased heart rate, decreased blood pressure, increased respiratory rate,
 and rising lactate.
 </p>
+${displayRiskAssessment("Patient C")}
         `;
 
     }
