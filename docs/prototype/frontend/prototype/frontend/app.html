@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI--Nursing Dashboard Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>AI--Nursing Dashboard</h1>
+    <p>Nurse-Centered Clinical Support Prototype</p>
+</header>
+
+<main>
+
+<section class="dashboard">
+
+    <h2>Assigned Patients</h2>
+
+    <div class="patient-card stable">
+        <h3>Patient A - Room 101</h3>
+        <p>Status: Stable</p>
+        <p>Priority: Routine monitoring</p>
+        <button onclick="showPatient('Patient A')">
+            View Patient
+        </button>
+    </div>
+
+
+    <div class="patient-card monitor">
+        <h3>Patient B - Room 102</h3>
+        <p>Status: Monitor Closely</p>
+        <p>Concern: Increasing oxygen requirement</p>
+        <button onclick="showPatient('Patient B')">
+            View Patient
+        </button>
+    </div>
+
+
+    <div class="patient-card urgent">
+        <h3>Patient C - Room 103</h3>
+        <p>Status: Concerning Trend</p>
+        <p>Concern: Changing vital signs</p>
+        <button onclick="showPatient('Patient C')">
+            View Patient
+        </button>
+    </div>
+
+</section>
+
+
+<section id="patient-details">
+
+<h2>Patient Details</h2>
+
+<p>Select a patient to view information.</p>
+
+</section>
+
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
