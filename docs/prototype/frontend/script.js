@@ -42,6 +42,11 @@ oxygen saturation has decreased, and respiratory rate is elevated.
                 <li>Continue routine monitoring</li>
                 <li>Maintain current care plan</li>
             </ul>
+            <h3>Why Am I Seeing This?</h3>
+
+<p>
+No significant concerning trends identified. Current findings support routine monitoring.
+</p>
         `;
 
 
@@ -74,6 +79,12 @@ oxygen saturation has decreased, and respiratory rate is elevated.
                 <li>Reassess oxygen requirements</li>
                 <li>Review trends</li>
             </ul>
+            <h3>Why Am I Seeing This?</h3>
+
+<p>
+Respiratory concern identified because oxygen requirement is increasing,
+oxygen saturation has decreased, and respiratory rate is elevated.
+</p>
         `;
 
 
@@ -113,6 +124,13 @@ and rising lactate.
                 <li>Assess oxygenation</li>
                 <li>Consider provider notification</li>
             </ul>
+            <h3>Why Am I Seeing This?</h3>
+
+<p>
+Higher risk pattern identified because multiple changes are occurring together:
+increased heart rate, decreased blood pressure, increased respiratory rate,
+and rising lactate.
+</p>
         `;
 
     }
