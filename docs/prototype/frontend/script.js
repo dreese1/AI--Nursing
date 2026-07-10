@@ -1,4 +1,34 @@
-function showPatient(patientName) {
+
+    function displayRiskAssessment(patientName) {
+
+    const patient = patients[patientName];
+
+    const assessment = evaluatePatientRisk(patient);
+
+    return `
+        <h3>AI Risk Assessment</h3>
+
+        <p>
+        Risk Level:
+        <strong>${assessment.riskLevel}</strong>
+        </p>
+
+        <p>
+        Risk Score:
+        ${assessment.score}
+        </p>
+
+        <h4>Why Am I Seeing This?</h4>
+
+        <ul>
+            ${
+                assessment.explanation
+                .map(item => `<li>${item}</li>`)
+                .join("")
+            }
+        </ul>
+    `;
+}
 
     const details = document.getElementById("patient-details");
 
