@@ -21,33 +21,76 @@
     <h2>Assigned Patients</h2>
 
     <div class="patient-card stable">
-        <h3>Patient A - Room 101</h3>
-        <p>Status: Stable</p>
-        <p>Priority: Routine monitoring</p>
-        <button onclick="showPatient('Patient A')">
-            View Patient
-        </button>
-    </div>
+
+    <h3>Patient A - Room 101</h3>
+
+    <p>Status:
+        <span class="risk-badge green">
+            STABLE
+        </span>
+    </p>
+
+    <p>Trend: No significant changes</p>
+
+    <p>Priority:
+        Routine monitoring
+    </p>
+
+    <button onclick="showPatient('Patient A')">
+        View Patient
+    </button>
+
+</div>
 
 
-    <div class="patient-card monitor">
-        <h3>Patient B - Room 102</h3>
-        <p>Status: Monitor Closely</p>
-        <p>Concern: Increasing oxygen requirement</p>
-        <button onclick="showPatient('Patient B')">
-            View Patient
-        </button>
-    </div>
+<div class="patient-card monitor">
+
+    <h3>Patient B - Room 102</h3>
+
+    <p>Status:
+        <span class="risk-badge yellow">
+            MONITOR
+        </span>
+    </p>
+
+    <p>Trend:
+        Oxygen requirement increasing ↑
+    </p>
+
+    <p>Priority:
+        Respiratory reassessment
+    </p>
+
+    <button onclick="showPatient('Patient B')">
+        View Patient
+    </button>
+
+</div>
 
 
-    <div class="patient-card urgent">
-        <h3>Patient C - Room 103</h3>
-        <p>Status: Concerning Trend</p>
-        <p>Concern: Changing vital signs</p>
-        <button onclick="showPatient('Patient C')">
-            View Patient
-        </button>
-    </div>
+<div class="patient-card urgent">
+
+    <h3>Patient C - Room 103</h3>
+
+    <p>Status:
+        <span class="risk-badge red">
+            URGENT
+        </span>
+    </p>
+
+    <p>Trend:
+        Multiple concerning changes ↑
+    </p>
+
+    <p>Priority:
+        Immediate evaluation
+    </p>
+
+    <button onclick="showPatient('Patient C')">
+        View Patient
+    </button>
+
+</div>
 
 </section>
 
