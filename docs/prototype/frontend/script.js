@@ -7,6 +7,11 @@ function showPatient(patientName) {
 
         details.innerHTML = `
             <h2>Patient A - Room 101</h2>
+            <h3>Why Am I Seeing This?</h3>
+
+<p>
+No significant concerning trends identified. Current findings support routine monitoring.
+</p>
 
             <h3>Status: Stable</h3>
 
@@ -27,6 +32,12 @@ function showPatient(patientName) {
             </ul>
 
             <h3>Clinical Priorities</h3>
+            <h3>Why Am I Seeing This?</h3>
+
+<p>
+Respiratory concern identified because oxygen requirement is increasing,
+oxygen saturation has decreased, and respiratory rate is elevated.
+</p>
             <ul>
                 <li>Continue routine monitoring</li>
                 <li>Maintain current care plan</li>
@@ -70,6 +81,13 @@ function showPatient(patientName) {
 
         details.innerHTML = `
             <h2>Patient C - Room 103</h2>
+            <h3>Why Am I Seeing This?</h3>
+
+<p>
+Higher risk pattern identified because multiple changes are occurring together:
+increased heart rate, decreased blood pressure, increased respiratory rate,
+and rising lactate.
+</p>
 
             <h3>Status: Concerning Trend</h3>
 
