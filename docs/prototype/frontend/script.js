@@ -8,6 +8,14 @@ function showPatient(patientName) {
         details.innerHTML = `
             <h2>Patient A - Room 101</h2>
             <h3>Why Am I Seeing This?</h3>
+            <h3>Clinical Timeline</h3>
+
+<ul>
+    <li>08:00 — Initial assessment completed</li>
+    <li>10:00 — Vital signs remained stable</li>
+    <li>12:00 — Routine care continued</li>
+    <li>14:00 — No significant changes identified</li>
+</ul>
 
 <p>
 No significant concerning trends identified. Current findings support routine monitoring.
@@ -80,6 +88,15 @@ No significant concerning trends identified. Current findings support routine mo
                 <li>Review trends</li>
             </ul>
             <h3>Why Am I Seeing This?</h3>
+            <h3>Clinical Timeline</h3>
+
+<ul>
+    <li>08:00 — Initial assessment completed</li>
+    <li>10:15 — Oxygen requirement increased from 2L to 4L</li>
+    <li>11:30 — Oxygen saturation trend decreased</li>
+    <li>12:00 — Respiratory reassessment completed</li>
+    <li>13:00 — Care plan reviewed</li>
+</ul>
 
 <p>
 Respiratory concern identified because oxygen requirement is increasing,
@@ -125,6 +142,15 @@ and rising lactate.
                 <li>Consider provider notification</li>
             </ul>
             <h3>Why Am I Seeing This?</h3>
+            <h3>Clinical Timeline</h3>
+
+<ul>
+    <li>08:00 — Initial assessment completed</li>
+    <li>09:45 — Heart rate trend increased</li>
+    <li>10:30 — Blood pressure decreased</li>
+    <li>11:15 — Laboratory abnormalities identified</li>
+    <li>12:00 — Provider communication initiated</li>
+</ul>
 
 <p>
 Higher risk pattern identified because multiple changes are occurring together:
