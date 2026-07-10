@@ -2,32 +2,101 @@ function showPatient(patientName) {
 
     const details = document.getElementById("patient-details");
 
+
     if (patientName === "Patient A") {
 
         details.innerHTML = `
             <h2>Patient A - Room 101</h2>
-            <p><strong>Status:</strong> Stable</p>
-            <p><strong>Priority:</strong> Routine monitoring</p>
-            <p><strong>Focus:</strong> Continue current care plan.</p>
+
+            <h3>Status: Stable</h3>
+
+            <h3>Vital Signs</h3>
+            <ul>
+                <li>Heart Rate: 78 bpm</li>
+                <li>Blood Pressure: 122/76 mmHg</li>
+                <li>Respiratory Rate: 16/min</li>
+                <li>Oxygen Saturation: 98%</li>
+                <li>Temperature: 98.6°F</li>
+            </ul>
+
+            <h3>Laboratory Trends</h3>
+            <ul>
+                <li>WBC: 7.2</li>
+                <li>Creatinine: 0.9</li>
+                <li>Lactate: 1.1</li>
+            </ul>
+
+            <h3>Clinical Priorities</h3>
+            <ul>
+                <li>Continue routine monitoring</li>
+                <li>Maintain current care plan</li>
+            </ul>
         `;
+
 
     } else if (patientName === "Patient B") {
 
         details.innerHTML = `
             <h2>Patient B - Room 102</h2>
-            <p><strong>Status:</strong> Monitor Closely</p>
-            <p><strong>Concern:</strong> Increasing oxygen requirement</p>
-            <p><strong>Nursing Focus:</strong> Reassess respiratory status and monitor trends.</p>
+
+            <h3>Status: Monitor Closely</h3>
+
+            <h3>Vital Signs</h3>
+            <ul>
+                <li>Heart Rate: 104 bpm</li>
+                <li>Blood Pressure: 108/68 mmHg</li>
+                <li>Respiratory Rate: 24/min</li>
+                <li>Oxygen Saturation: 92%</li>
+                <li>Temperature: 99.8°F</li>
+            </ul>
+
+            <h3>Laboratory Trends</h3>
+            <ul>
+                <li>WBC: 12.4</li>
+                <li>Creatinine: 1.3</li>
+                <li>Lactate: 2.2</li>
+            </ul>
+
+            <h3>Clinical Priorities</h3>
+            <ul>
+                <li>Monitor respiratory status</li>
+                <li>Reassess oxygen requirements</li>
+                <li>Review trends</li>
+            </ul>
         `;
+
 
     } else if (patientName === "Patient C") {
 
         details.innerHTML = `
             <h2>Patient C - Room 103</h2>
-            <p><strong>Status:</strong> Concerning Trend</p>
-            <p><strong>Concern:</strong> Changing vital signs</p>
-            <p><strong>Nursing Focus:</strong> Evaluate changes and consider provider communication.</p>
+
+            <h3>Status: Concerning Trend</h3>
+
+            <h3>Vital Signs</h3>
+            <ul>
+                <li>Heart Rate: 118 bpm</li>
+                <li>Blood Pressure: 92/58 mmHg</li>
+                <li>Respiratory Rate: 30/min</li>
+                <li>Oxygen Saturation: 88%</li>
+                <li>Temperature: 101.4°F</li>
+            </ul>
+
+            <h3>Laboratory Trends</h3>
+            <ul>
+                <li>WBC: 18.6</li>
+                <li>Creatinine: 1.8</li>
+                <li>Lactate: 4.0</li>
+            </ul>
+
+            <h3>Clinical Priorities</h3>
+            <ul>
+                <li>Evaluate deterioration risk</li>
+                <li>Assess oxygenation</li>
+                <li>Consider provider notification</li>
+            </ul>
         `;
+
     }
 
 }
